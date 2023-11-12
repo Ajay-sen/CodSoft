@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    height:90px;
+    width:100%;
+    background-color: black;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin:20px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    padding: 3px 26px;
+    color: white;
+    font-size:1.3rem;
+    text-decoration: none;
+}
+
+
+#navbar ul li a:hover{
+    cursor: pointer;
+    border: 2px solid rgb(178,176,176);
+    font-size: 22px;
+    border: 2px solid rgb(178,176,176);
+}
+#navbar img{
+    height: 40px;
+    width: 60px;
+    filter:invert();
+    margin: 14px;
+}
+
+.another{
+    display: flex;
+    flex-direction: row;
+    margin-left:420px;
+    /* position: right;
+    float:right; */
+}
+
+#signup{
+    border:3px solid white;
+    background-color: white;
+    color:black;
+    border-radius: 50px;
+}
+
+#mid_body{
+    height: 500px;
+    background:url(/images/car_body1.jpg) no-repeat center center/cover;
+}
+
+#request{
+    height: 450px;
+    width: 40%;
+    /* margin-top:30px; */
+    margin-left:70px;
+    /* border:1px solid black; */
+    
+    border-radius: 4px;
+    background-color: white;
+}
+
+.ride{
+    height: 88px;
+    width: 100%;
+}
+
+.ride img{
+    height: 60px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.divheading{
+    display: flex;
+    flex-direction: row;
+}
+
+.divheading h3{
+    width:50px;
+    margin: 22px;
+    margin-left: 79px;
+}
+
+.location{
+    display:flex;
+    flex-direction: column;
+    margin-top:55px;
+}
+
+.location h1{
+    text-align: center;
+    font-size:2.2rem ;
+}
+
+.location input{
+    height: 40px;
+    width: 70%;
+    margin-top:14px; 
+    margin-left:30px;
+    border:3px solid   rgb(218, 214, 210);
+    border-radius: 7px ;
+    background-color: rgb(218, 214, 210);
+    align-items: center;
+}
+
+.btn{
+height: 40px;
+width: 120px;
+margin-top: 15px;
+margin-left: 20px;
+background-color: black;
+border: 3px solid black;
+color:white;
+border-radius: 8px;
+cursor:pointer;
+}
+
+.btnn{
+
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+    margin-left:20px;
+    cursor:pointer;
+
+}
+
+#bus{
+    height: 100vh;
+    width: 100%;
+}
+
+#bus::before{
+    position: absolute;
+    content: "";
+    background:url(/images/america.jpg) no-repeat center center/cover ;
+    height:100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+#bus h1{
+    font-size:2.3rem;
+    margin: 15px;
+    
+}
+
+#bus p{
+    font-size: 1.2 rem;
+    padding: 12px;
+}
+
+#bus button{
+    height: 50px;
+    width:120px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 12px;
+    color:white;
+}
+
+#ride{
+    height:600px;
+    width: 100%;
+    border: 3px solid black;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    /* display: inline; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ride h1{
+    height: 20px;
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    /* margin-right:500px ; */
+}
+
+.divide{
+    
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+    padding: 15px;
+    
+    /* align-items: center; */
+    
+}
+
+.divide img{
+    height: 120px;
+    width: 120px;
+}
+
+.safe{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo img{
+    height: 300px;
+    width: 400px;
+    margin-left: 120px;
+    margin-top:20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2{
+    margin: 12px;
+}
+
+.text p{
+    padding: 30px;
+}
+
+.end{
+    height: 150px;
+    margin-top:160px;
+    background-color: black;
+    color: white;
+}
+
+.end img{
+    height: 80px;
+    width: 200px;
+    margin-top:30px;
+    margin-left:10px ;
+    border-radius: 7px;
+}
